@@ -7,7 +7,7 @@ export const StyledContents = styled.article `
   width: 100%;
   padding-top: 16px;
 
-  & .contents-container {
+  .contents-container {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;

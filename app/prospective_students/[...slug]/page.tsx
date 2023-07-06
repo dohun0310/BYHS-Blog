@@ -52,10 +52,9 @@ export default async function PostPage({ params }: PostProps) {
   return (
     <div>
       <StyledPost>
-          <div className="post-container">
-            <h1 className="post-title">{post.title}</h1>
-            <Mdx code={post.body.code} />
-          </div>
+          <h1 className="post-title">{post.title}</h1>
+          <p className="post-author">{post.author}</p>
+          <Mdx code={post.body.code} />
       </StyledPost>
     </div>
   )

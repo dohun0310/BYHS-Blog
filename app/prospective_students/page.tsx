@@ -13,7 +13,13 @@ const students = () => (
     <StyledContents>
       <div className="contents-container">
         <h1 className="page-title">예비 입학생</h1>
-        <h1 className="page-content">예비 입학생 페이지입니다.</h1>
+        <h1 className="page-content">
+          이 페이지는 부용고에 입학하고자 하는 예비 고1 학생들을 위한 페이지예요.
+
+          <br />
+
+          부용고에 들어오지 않아서 알 수 없는 교칙이나 시설의 모습, 그리고 학교생활을 하며 느꼈던 경험들을 담았어요.
+        </h1>
         {allProspectiveStudentsPosts.map((post) => (
           <article key={post._id}>
             <Link href={post._raw.flattenedPath}>

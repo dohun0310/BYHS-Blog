@@ -13,7 +13,13 @@ const students = () => (
     <StyledContents>
       <div className="contents-container">
         <h1 className="page-title">재학생</h1>
-        <h1 className="page-content">재학생 페이지입니다.</h1>
+        <h1 className="page-content">
+          이 페이지는 부용고 재학생들을 위한 페이지예요.
+  
+          <br />
+  
+          선배로서 후배들에게 알려주고 싶은 학교생활 팁과 교내 활동, 동아리 및 교내 부서에 대한 내용을 담았어요.
+        </h1>
         {allStudentsPosts.map((post) => (
           <article key={post._id}>
             <Link href={post._raw.flattenedPath}>

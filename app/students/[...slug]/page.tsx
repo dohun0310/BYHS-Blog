@@ -54,6 +54,7 @@ export default async function PostPage({ params }: PostProps) {
       <StyledPost>
           <div className="post-container">
             <h1 className="post-title">{post.title}</h1>
+            <p className="post-author">{post.author}</p>
             <Mdx code={post.body.code} />
           </div>
       </StyledPost>
