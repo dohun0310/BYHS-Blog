@@ -58,30 +58,28 @@ const StyledHeader = styled.header `
     }
 `
 
-const Header = () => {
-  return (
-    <StyledHeader>
-        <div className="header-container">
-            <div className="header-left">
-                <Link href="/">
-                    <Logo />
-                </Link>
-            </div>
-            <div className="header-right">
-                <Link href="/students">
-                    <h3>
-                        재학생
-                    </h3>
-                </Link>
-                <Link href="/prospective_students">
-                    <h3>
-                        예비 입학생
-                    </h3>
-                </Link>
-            </div>
-        </div>
-    </StyledHeader>
-  )
-}
+const Header = () => (
+  <StyledHeader>
+    <div className="header-container">
+      <div className="header-left">
+        <Link href="/">
+          <Logo />
+        </Link>
+      </div>
+      <div className="header-right">
+        <Link href="/students">
+          <h3>
+            재학생
+          </h3>
+        </Link>
+        <Link href="/prospective_students">
+          <h3>
+            예비 입학생
+          </h3>
+        </Link>
+      </div>
+    </div>
+  </StyledHeader>
+)
 
 export default Header

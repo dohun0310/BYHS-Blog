@@ -38,14 +38,12 @@ const StyledFooter = styled.footer`
   }
 `;
 
-const Footer = () => {
-  return (
-    <StyledFooter>
-      <div className="footer-container">
-        <h5>created by d3h1</h5>
-      </div>
-    </StyledFooter>
-  );
-};
+const Footer = () => (
+  <StyledFooter>
+    <div className="footer-container">
+      <h5>created by d3h1</h5>
+    </div>
+  </StyledFooter>
+)
 
 export default Footer;
