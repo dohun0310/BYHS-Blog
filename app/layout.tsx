@@ -1,5 +1,5 @@
-import './globals.css'
-import { Noto_Sans_KR } from 'next/font/google'
+import "./globals.css";
+import { Noto_Sans_KR } from "next/font/google";
 import { Header, Footer } from "../components";
 
 const noto_sans_kr = Noto_Sans_KR({
