@@ -45,6 +45,21 @@ const StyledFooter = styled.footer`
       fill: #909090;
     }
   }
+
+  @media (max-width: 520px) {
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+
+    & .footer-container {
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      background-color: #111111;
+      border-top: 1px solid #232323;
+    }
+  }
 `;
 
 const Footer = () => (
