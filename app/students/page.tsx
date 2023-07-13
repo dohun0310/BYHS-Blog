@@ -1,11 +1,23 @@
-import { allStudentsPosts } from 'contentlayer/generated';
+import { allStudentsPosts } from "contentlayer/generated";
 import Link from "next/link";
 
-import { StyledContents } from './style';
+import { StyledContents } from "./style";
 
 export const metadata = {
-  title: '재학생',
-  description: '선배로서 후배들에게 알려주고 싶은 학교생활 팁과 교내 활동, 동아리 및 교내 부서에 대한 내용들을 담은 글들이 있는 페이지예요.',
+  title: "재학생",
+  description: "선배로서 후배들에게 알려주고 싶은 학교생활 팁과 교내 활동, 동아리 및 교내 부서에 대한 내용들을 담은 글들이 있는 페이지예요.",
+  og: {
+    type: "website",
+    url: "https://byhs.vercel.app",
+    title: "재학생",
+    desciption: "선배로서 후배들에게 알려주고 싶은 학교생활 팁과 교내 활동, 동아리 및 교내 부서에 대한 내용들을 담은 글들이 있는 페이지예요.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    url: "https://byhs.vercel.app",
+    title: "재학생",
+    desciption: "선배로서 후배들에게 알려주고 싶은 학교생활 팁과 교내 활동, 동아리 및 교내 부서에 대한 내용들을 담은 글들이 있는 페이지예요.",
+  },
 }
 
 const students = () => (
