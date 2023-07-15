@@ -13,9 +13,17 @@ export const StyledPost = styled.article `
   padding: 16px 30px 64px;
   box-sizing: border-box;
 
+  & h1, h2, h3, h4, h5 {
+    font-weight: bold;
+  }
+
   & h1 {
     font-size: 26px;
-    font-weight: bold;
+  }
+
+  & a {
+    color: #3081f7;
+    text-decoration: solid underline;
   }
 
   & .post-title {
