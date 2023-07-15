@@ -11,17 +11,17 @@ const noto_sans_kr = Noto_Sans_KR({
 export const metadata = {
   title: "BYHS Blog",
   description: "학생들이 생각하는 부용고의 모습을 진솔하게 담아 소개해요. 재학생, 예비 입학생들을 위한 정보를 선배들이 직접 공유해요.",
-  og: {
+  openGraph: {
     type: "website",
     url: "https://byhs.vercel.app",
     title: "BYHS Blog",
-    desciption: "학생들이 생각하는 부용고의 모습을 진솔하게 담아 소개해요. 재학생, 예비 입학생들을 위한 정보를 선배들이 직접 공유해요.",
+    description: "학생들이 생각하는 부용고의 모습을 진솔하게 담아 소개해요. 재학생, 예비 입학생들을 위한 정보를 선배들이 직접 공유해요.",
   },
   twitter: {
     card: "summary_large_image",
     url: "https://byhs.vercel.app",
     title: "BYHS Blog",
-    desciption: "학생들이 생각하는 부용고의 모습을 진솔하게 담아 소개해요. 재학생, 예비 입학생들을 위한 정보를 선배들이 직접 공유해요.",
+    description: "학생들이 생각하는 부용고의 모습을 진솔하게 담아 소개해요. 재학생, 예비 입학생들을 위한 정보를 선배들이 직접 공유해요.",
   },
 }
 

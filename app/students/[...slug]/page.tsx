@@ -34,6 +34,18 @@ export async function generateMetadata({
   return {
     title: post.title,
     description: post.author,
+    openGraph: {
+      type: "website",
+      url: "https://byhs.vercel.app",
+      title: post.title,
+      description: post.author,
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "https://byhs.vercel.app",
+      title: post.title,
+      description: post.author,
+    },
   }
 }
 
