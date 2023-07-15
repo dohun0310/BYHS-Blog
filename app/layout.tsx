@@ -16,12 +16,19 @@ export const metadata = {
     url: "https://byhs.vercel.app",
     title: "BYHS Blog",
     description: "학생들이 생각하는 부용고의 모습을 진솔하게 담아 소개해요. 재학생, 예비 입학생들을 위한 정보를 선배들이 직접 공유해요.",
+    siteName: "BYHS Blog",
+    images: [{
+      url: "/opengraph.png",
+    }],
   },
   twitter: {
     card: "summary_large_image",
-    url: "https://byhs.vercel.app",
+    site: "https://byhs.vercel.app",
     title: "BYHS Blog",
     description: "학생들이 생각하는 부용고의 모습을 진솔하게 담아 소개해요. 재학생, 예비 입학생들을 위한 정보를 선배들이 직접 공유해요.",
+    images: [{
+      url: "/opengraph.png",
+    }],
   },
 }
 

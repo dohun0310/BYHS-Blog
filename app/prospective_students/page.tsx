@@ -11,12 +11,19 @@ export const metadata = {
     url: "https://byhs.vercel.app",
     title: "예비 입학생",
     description: "부용고에 들어오지 않아서 알 수 없는 교칙이나 시설의 모습, 그리고 학교생활을 하며 느꼈던 경험들을 담은 글들이 있는 페이지예요.",
+    siteName: "BYHS Blog",
+    images: [{
+      url: "/opengraph.png",
+    }],
   },
   twitter: {
     card: "summary_large_image",
     url: "https://byhs.vercel.app",
     title: "예비 입학생",
     description: "부용고에 들어오지 않아서 알 수 없는 교칙이나 시설의 모습, 그리고 학교생활을 하며 느꼈던 경험들을 담은 글들이 있는 페이지예요.",
+    images: [{
+      url: "/opengraph.png",
+    }],
   },
 }
 

@@ -39,12 +39,19 @@ export async function generateMetadata({
       url: "https://byhs.vercel.app",
       title: post.title,
       description: post.author,
+      siteName: "BYHS Blog",
+      images: [{
+        url: "/opengraph.png",
+      }],
     },
     twitter: {
       card: "summary_large_image",
       site: "https://byhs.vercel.app",
       title: post.title,
       description: post.author,
+      images: [{
+        url: "/opengraph.png",
+      }],
     },
   }
 }

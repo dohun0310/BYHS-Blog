@@ -13,6 +13,11 @@ export const StyledPost = styled.article `
   padding: 16px 30px 64px;
   box-sizing: border-box;
 
+  & h1 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
   & .post-title {
     margin-bottom: 0;
     font-size: 26px;
@@ -24,8 +29,14 @@ export const StyledPost = styled.article `
     border-bottom: 1px solid #e0e0e0;
 
     @media (prefers-color-scheme: dark) {
-        border-color: #232323;
-      }
+      border-color: #232323;
+    }
+  }
+
+  & Mdx {
+    & h1 {
+      font-size: 26px;
+      font-weight: bold;
     }
   }
 `
